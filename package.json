@@ -1,0 +1,23 @@
+{
+  "name": "iinsight",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.9",
+    "@sveltejs/kit": "next",
+    "eslint": "^7.22.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "svelte": "^3.34.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@urql/svelte": "^1.2.2",
+    "ethers": "^5.1.4",
+    "graphql": "^15.5.0"
+  }
+}
