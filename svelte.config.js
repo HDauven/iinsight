@@ -10,7 +10,11 @@ const config = {
 			optimizeDeps: {
 				exclude: ['@urql/svelte'],
 			}
-		}
+		},
+		paths: {
+			base: '/iinsight',
+			assets: '/iinsight'
+		},
 	},
 };
 
