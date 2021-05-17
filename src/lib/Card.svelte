@@ -26,7 +26,7 @@
     font-size: 2rem;
     text-align: center;
   }
-  
+
   h4 {
     flex: 1;
     font-size: 0.8rem;
