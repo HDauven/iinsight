@@ -13,7 +13,7 @@
   .circle {
     height: 60px;
     width: 60px;
-    border-color: #0088ff transparent #0088ff #0088ff;
+    border-color: #CF0C97 transparent #CF0C97 #CF0C97;
     border-width: calc(60 / 15);
     border-style: solid;
     border-image: initial;
