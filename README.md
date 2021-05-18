@@ -1,20 +1,6 @@
 # iinsight
 
-iinsight is a simple dashboard to display some of the key [nahmii](https://nahmii.io) statistics often requested by the community.
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+iinsight is a simple dashboard to display some of the key [nahmii](https://nahmii.io) statistics often requested by the community. A live version can be found [here](https://hdauven.github.io/iinsight/). Do not that running the MetaMask extension is required (for now).
 
 ## Developing
 
@@ -36,6 +22,14 @@ npm run build
 ```
 
 > You can preview the statically built app with `npm run preview`.
+
+## Deploying
+
+To deploy this app to Github pages:
+
+```bash
+npm run deploy
+```
 
 ## Contributing
 
