@@ -14,7 +14,7 @@
 	--column-margin-top: 4rem;
 }
 
-:root[data-theme="dark"] {
+:root[data-mode="dark"] {
 	--pure-white: #383838;
 	--primary-color: #121212;
 	--secondary-color: #0f0f0f;
