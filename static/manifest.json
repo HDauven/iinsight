@@ -1,0 +1,20 @@
+{
+  "background_color": "#70d9fe",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "iinsight",
+  "short_name": "iinsight",
+  "start_url": "/",
+  "theme_color": "#70d9fe"
+}
