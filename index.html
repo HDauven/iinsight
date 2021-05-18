@@ -98,6 +98,12 @@
 
 	
 </div>
+
+	<script>
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register('/iinsight/service-worker.js', {scope: '/iinsight/'})
+		}
+		</script>
 </body>
 
 </html>
