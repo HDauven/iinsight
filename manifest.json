@@ -15,6 +15,6 @@
   ],
   "name": "iinsight",
   "short_name": "iinsight",
-  "start_url": "/",
+  "start_url": "/iinsight",
   "theme_color": "#70d9fe"
 }
