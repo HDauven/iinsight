@@ -16,10 +16,11 @@
   .card {
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: var(--pure-white);
     padding: 15px;
     border-radius: 6px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  
+		transition: background-color 0.2s linear;
   }
 
   p {
