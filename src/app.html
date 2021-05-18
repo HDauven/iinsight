@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
+	<link rel="canonical" href="https://hdauven.github.io/iinsight/" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/iinsight/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/iinsight/favicon-16x16.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="/iinsight/apple-touch-icon.png">
@@ -19,7 +20,7 @@
 	<meta name="description" content="Simple dashboard showing often requested nahmii indicators." />
 	<meta property="og:description" content="Simple dashboard showing often requested nahmii indicators." />
 	<meta property="og:title" content="iinsight - A simple nahmii dashboard" />
-	<meta property="og:url" content="https://hdauven.github.io/iinsight//" />
+	<meta property="og:url" content="https://hdauven.github.io/iinsight/" />
 	<meta property="og:image" content="https://hdauven.github.io/iinsight/logo-512.png" />
 	<meta property="og:type" content="website" />
 	<script type="application/ld+json">
@@ -36,6 +37,12 @@
 
 <body>
 	<div id="svelte">%svelte.body%</div>
+
+	<script>
+		if ("serviceWorker" in navigator) {
+			navigator.serviceWorker.register('/iinsight/service-worker.js', {scope: '/iinsight/'})
+		}
+		</script>
 </body>
 
 </html>
