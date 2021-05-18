@@ -10,6 +10,7 @@
 	import { getNahmiiBalances } from "./../ethereum-calls";
 	import { getNahmiiPriceUSD } from "./../thegraph-calls";
 
+	const interval = 15*60*1000; // 15 minutes
 	let data = {};
 
 	const updateStatistics = async () => {
@@ -31,12 +32,11 @@
 				"$0.00a"
 			),
 		};
-		console.log(data);
 	}
 
 	onMount(async () => {
 		updateStatistics();
-		setTimeout(updateStatistics, 15*60*1000);
+		setInterval(updateStatistics, interval);
 	});
 </script>
 
