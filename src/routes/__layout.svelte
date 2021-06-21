@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>Copyright © {new Date().getFullYear()} Hein Dauven</p>
+	<p>Copyright © {new Date().getFullYear()} the nahmii community</p>
 </footer>
 
 <style>
