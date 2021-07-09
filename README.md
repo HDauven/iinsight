@@ -1,6 +1,6 @@
 # iinsight
 
-iinsight is a simple dashboard to display some of the key [nahmii](https://nahmii.io) statistics often requested by the community. A live version can be found [here](https://nahmii-community.github.io/iinsight/). Do not that running the MetaMask extension is required (for now).
+iinsight is a simple dashboard to display some of the key [nahmii](https://nahmii.io) statistics often requested by the community. A live version can be found [here](https://nahmii-community.github.io/iinsight/). Do note that having an Ethereum provider, like MetaMask (extension or mobile app), available in your browser is required to run this dApp.
 
 ## Developing
 
