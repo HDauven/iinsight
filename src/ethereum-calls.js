@@ -50,7 +50,7 @@ export const getNahmiiBalances = async () => {
   const L2Balance = clientFundBalance.add(standardBridgeBalance);
   const nahmiiL1 = nahmiiTotalNumberOfTokens.sub(
     airdriipBalance.add(clientFundBalance)
-  );
+  ).sub(standardBridgeBalance);
   const airdriipsRemaining = Math.floor(airdriipBalance.div(billion));
 
   return {
