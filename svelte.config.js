@@ -17,7 +17,7 @@ const config = {
 			}
 		},
 		paths: {
-			base: dev ? '' : '',
+			base: dev ? '' : '/iinsight',
 		},
 	},
 };
