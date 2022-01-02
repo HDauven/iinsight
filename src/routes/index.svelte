@@ -20,9 +20,9 @@
 
 		data = {
 			airdriipsRemaining,
-			nahmiiL1: numeral(nahmiiL1).format("0.0a"),
+			nahmiiL1: numeral(nahmiiL1).format("0.00a"),
 			nahmiiL1Value: numeral(nahmiiL1 * nahmiiPrice).format("$0.00a"),
-			nahmiiL2: numeral(nahmiiL2).format("0.0a"),
+			nahmiiL2: numeral(nahmiiL2).format("0.00a"),
 			nahmiiL2Value: numeral(nahmiiL2 * nahmiiPrice).format("$0.00a"),
 			nahmiiAirdriip: numeral(nahmiiAirdriip).format("0a"),
 			nahmiiAirdriipValue: numeral(nahmiiAirdriip * nahmiiPrice).format(
