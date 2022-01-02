@@ -33,6 +33,10 @@
 		padding: 40px;
 	}
 
+	footer p {
+		color: #fff;
+	}
+
 	@media (min-width: 480px) {
 		footer {
 			padding: 40px 0;
