@@ -1,0 +1,58 @@
+{
+  ".svelte-kit/build/runtime/internal/start.js": {
+    "file": "start-56a04b33.js",
+    "src": ".svelte-kit/build/runtime/internal/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-3b2fe060.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/build/components/error.svelte",
+      "src/routes/index.svelte"
+    ],
+    "css": [
+      "assets/start-61d1577b.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-861a62a1.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3b2fe060.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-9fead8bc.css"
+    ],
+    "assets": [
+      "assets/nahmii-logo-158dac4f.png",
+      "assets/background-be7a689c.png"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "error.svelte-00fb89cc.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3b2fe060.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-79bc1ea3.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-3b2fe060.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-44afc638.css"
+    ]
+  },
+  "_vendor-3b2fe060.js": {
+    "file": "chunks/vendor-3b2fe060.js"
+  }
+}
